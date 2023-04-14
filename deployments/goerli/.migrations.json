@@ -1,0 +1,19 @@
+{
+  "ons": 1681480097,
+  "dnssec-algorithms": 1681480145,
+  "dnssec-digests": 1681480168,
+  "dnssec-oracle": 1681480218,
+  "dns-registrar": 1681480742,
+  "root": 1681480793,
+  "set-dns-registrar": 1681480793,
+  "registrar": 1681480875,
+  "price-oracle": 1681480902,
+  "reverse-registrar": 1681481116,
+  "metadata": 1681481141,
+  "name-wrapper": 1681481165,
+  "eth-registrar": 1681481258,
+  "bulk-renewal": 1681481306,
+  "resolver": 1681481331,
+  "final-setup": 1681481462,
+  "universal-resolver": 1681481475
+}

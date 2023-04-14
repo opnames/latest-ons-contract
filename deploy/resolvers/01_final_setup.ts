@@ -54,8 +54,8 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   await tx3.wait()
 
   const providerWithOns = new ethers.providers.StaticJsonRpcProvider(
-    network.name === 'mainnet' ? 'https://mainnet.optimism.io' : 'https://goerli.optimism.io',
-    { chainId: network.name === 'mainnet' ? 10 : 420, name: 'optimism_goerli', ensAddress: registry.address },
+    network.name === 'mainnet' ? 'https://mainnet.optimism.io' : 'https://web3metadata.ens.domains/v1/goerli',
+    { chainId: network.name === 'mainnet' ? 10 : 5, name: 'goerli', ensAddress: registry.address },
   )
 
   const resolverAddr = await providerWithOns.getResolver('op')
